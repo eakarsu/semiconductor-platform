@@ -1,0 +1,8 @@
+{
+  "id": "semiconductor-platform",
+  "port": 46022,
+  "status": "passed",
+  "startScript": true,
+  "health": true,
+  "verifiedAt": "2026-09-07T14:38:36.125Z"
+}

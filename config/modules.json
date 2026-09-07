@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ai-electronics-component-price-variance-audit",
+    "name": "Electronics component price variance audit",
+    "sourceProject": "ai-electronics-component-price-variance-audit",
+    "services": []
+  },
+  {
+    "id": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "name": "Semiconductor foundry yield settlement recovery",
+    "sourceProject": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-semiconductor-mask-nre-charge-audit",
+    "name": "Semiconductor mask nre charge audit",
+    "sourceProject": "ai-semiconductor-mask-nre-charge-audit",
+    "services": []
+  },
+  {
+    "id": "AISemiconductorFabYieldOptimizer",
+    "name": "Semiconductor fab yield optimizer",
+    "sourceProject": "AISemiconductorFabYieldOptimizer",
+    "services": []
+  },
+  {
+    "id": "chip_design",
+    "name": "Chip design",
+    "sourceProject": "chip_design",
+    "services": []
+  },
+  {
+    "id": "hardware-supply-chain",
+    "name": "Hardware supply chain",
+    "sourceProject": "hardware-supply-chain",
+    "services": []
+  },
+  {
+    "id": "inference-chips-for-agent-workflows",
+    "name": "Inference chips for agent workflows",
+    "sourceProject": "inference-chips-for-agent-workflows",
+    "services": []
+  },
+  {
+    "id": "librelane",
+    "name": "Librelane",
+    "sourceProject": "librelane",
+    "services": []
+  },
+  {
+    "id": "supply-chain-2-semiconductors",
+    "name": "Supply chain 2 semiconductors",
+    "sourceProject": "supply-chain-2-semiconductors",
+    "services": []
+  }
+]

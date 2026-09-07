@@ -1,0 +1,1367 @@
+{
+  "mapped": [
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "component-master-registry",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "component-master-registry",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "approved-supplier-mapping",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "approved-supplier-mapping",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "quote-agreement-library",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "quote-agreement-library",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "purchase-order-ingestion",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "purchase-order-ingestion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "receipt-invoice-matching",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "receipt-invoice-matching",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "contract-price-validation",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "contract-price-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "commodity-adder-audit",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "commodity-adder-audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "broker-premium-review",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "broker-premium-review",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "ncnr-term-validation",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "ncnr-term-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "moq-price-tier",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "moq-price-tier",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "currency-conversion",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "currency-conversion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "variance-calculation",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "variance-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "supplier-dispute-workflow",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "supplier-dispute-workflow",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "credit-reconciliation",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "credit-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "part-supplier-analytics",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+      "canonical": "part-supplier-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "foundry-agreement-library",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "foundry-agreement-library",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "product-node-and-mask-registry",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "product-node-and-mask-registry",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "wafer-start-reconciliation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "wafer-start-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "wafer-acceptance-and-scrap",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "wafer-acceptance-and-scrap",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "wafer-sort-ingestion",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "wafer-sort-ingestion",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "good-die-yield-calculation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "good-die-yield-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "yield-guarantee-validation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "yield-guarantee-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "known-good-die-reconciliation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "known-good-die-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "engineering-lot-separation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "engineering-lot-separation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "mask-and-nre-charge-audit",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "mask-and-nre-charge-audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "expedite-charge-validation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "expedite-charge-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "foundry-invoice-recalculation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "foundry-invoice-recalculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "yield-loss-claim-generation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "yield-loss-claim-generation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "foundry-response-workflow",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "foundry-response-workflow",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "credit-reconciliation",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "credit-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "product-node-and-supplier-analytics",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+      "canonical": "product-node-and-supplier-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "foundry-agreement-library",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "foundry-agreement-library",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "tape-out-program-registry",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "tape-out-program-registry",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "mask-set-inventory",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "mask-set-inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "layer-count-validation",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "layer-count-validation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "nre-milestone-tracking",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "nre-milestone-tracking",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "engineering-lot-calculation",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "engineering-lot-calculation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "respins-responsibility",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "respins-responsibility",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "design-change-attribution",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "design-change-attribution",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "waiver-credit-control",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "waiver-credit-control",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "tooling-ownership-evidence",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "tooling-ownership-evidence",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "invoice-matching",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "invoice-matching",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "duplicate-nre-detection",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "duplicate-nre-detection",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "foundry-dispute-workflow",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "foundry-dispute-workflow",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "credit-reconciliation",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "credit-reconciliation",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "program-node-analytics",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+      "canonical": "program-node-analytics",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/yield-learning-center",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "yield-learning-center",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/yield-learning-center",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "yield-learning-center",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/war-room",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "war-room",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/production-readiness",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "production-readiness",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/observability",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "observability",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/audit-trail",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "audit-trail",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/notifications",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/ai-jobs",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "jobs",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/integrations",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "connections",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/model-registry",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "model-registry",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/approvals",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "approvals",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/role-permissions",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "role-permissions",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/evidence-exports",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "evidence-exports",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/wafer-lots",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "wafer-lots",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/equipment-inventory",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "equipment-inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/facilities",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "facilities",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/reticle-pod-queue",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "reticle-pod-queue",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/maintenance-schedules",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "maintenance-schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/shift-log-digest",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "shift-log-digest",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/wafer-defects",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "wafer-defects",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/process-parameters",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "process-parameters",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/yield-predictions",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "yield-predictions",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/root-cause-analysis",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "root-cause-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/equipment-matching",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "equipment-matching",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/defect-patterns",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "defect-patterns",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/spc-alerts",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "spc-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/process-recipes",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "process-recipes",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/quality-metrics",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "quality-metrics",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/process-optimization",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "process-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/defect-prediction",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "defect-prediction",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/equipment-health-forecast",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "equipment-health-forecast",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/multi-objective-optimize",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "multi-objective-optimize",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/missing-features",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "missing-features",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-yieldprediction-modeldriven",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "yieldprediction-modeldriven",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-rootcauseanalysis-ai-only-manual-records",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "rootcauseanalysis-ai-only-manual-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-processoptimization-parameter-recs",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "processoptimization-parameter-recs",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-defectprediction-ratetype-ml",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "defectprediction-ratetype-ml",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-equipmenthealthforecast",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "equipmenthealthforecast",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-reciperecommendation-ai",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "reciperecommendation-ai",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-realtime-spc-charting-records-only",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "realtime-spc-charting-records-only",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-integration-with-fab-equipment-secsgem",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "integration-with-fab-equipment-secsgem",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-equipment-calibration-tracking",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "equipment-calibration-tracking",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-meserp-integration",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "meserp-integration",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-no-alertingnotifications-system",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/gap-limited-auditrbac-for-sensitive-recipe-data",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "limited-auditrbac-for-sensitive-recipe-data",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/cf-yield-prediction-by-process-parameters",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "yield-prediction-by-process-parameters",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/cf-root-cause-analysis-automation",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "rootcauseanalysis-ai-only-manual-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/cf-process-recipe-optimization",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "process-recipe-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/cf-equipment-predictive-maintenance",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "equipment-predictive-maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/cf-defect-pattern-recognition",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "defect-pattern-recognition",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/cf-multiobjective-optimization",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "canonical": "multiobjective-optimization",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/wafer-defects",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "wafer-defects",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/process-parameters",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "process-parameters",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/yield-predictions",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "yield-predictions",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/defect-patterns",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "defect-patterns",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/wafer-lots",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "wafer-lots",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/maintenance-schedules",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "maintenance-schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "sourceKey": "/evidence-exports",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+      "canonical": "evidence-exports",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/users",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin-users",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/sessions",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin-sessions",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/audit-logs",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/password-resets",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin-password-resets",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/email-verifications",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin-email-verifications",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/error-logs",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin-error-logs",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/roles",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin-roles",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "/admin/security",
+      "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+      "canonical": "admin-security",
+      "kind": "definition"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "tmp/out.def",
+      "source": "/Volumes/external/projects/chip_design",
+      "canonical": "tmp-out-def",
+      "kind": "route"
+    },
+    {
+      "project": "chip_design",
+      "sourceKey": "tmp/out.gds",
+      "source": "/Volumes/external/projects/chip_design",
+      "canonical": "tmp-out-gds",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "lead-time",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "lead-time",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "supplier",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "supplier",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "bottleneck",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "bottleneck",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "cost",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "cost",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "supplier-risk",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "supplier-risk",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "bom-optimizer",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "bom-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "defect-predictor",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "defect-predictor",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "demand-forecast",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "demand-forecast",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "geopolitical",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+      "canonical": "geopolitical",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "parts",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+      "canonical": "parts",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "suppliers",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+      "canonical": "suppliers",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "orders",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+      "canonical": "orders",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "iterations",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+      "canonical": "iterations",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "quality",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+      "canonical": "quality",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "manufacturers",
+      "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+      "canonical": "manufacturers",
+      "kind": "definition"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "export",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "export",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "bom",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "bom",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "components",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "components",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "landed-cost",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "landed-cost",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "cm-lead-times",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "cm-lead-times",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "dfm",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "dfm",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "ecn",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "ecn",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "aql",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "aql",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "iteration-speed",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "iteration-speed",
+      "kind": "route"
+    },
+    {
+      "project": "hardware-supply-chain",
+      "sourceKey": "golden-sample-control",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "canonical": "golden-sample-control",
+      "kind": "route"
+    },
+    {
+      "project": "inference-chips-for-agent-workflows",
+      "sourceKey": "deployments",
+      "source": "/Volumes/external/projects/inference-chips-for-agent-workflows",
+      "canonical": "deployments",
+      "kind": "route"
+    },
+    {
+      "project": "librelane",
+      "sourceKey": "librelane",
+      "source": "/Volumes/external/projects/librelane",
+      "canonical": "librelane",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "supply-chain-2-semiconductors",
+      "sourceKey": "control-tower",
+      "source": "/Volumes/external/projects/supply-chain-2-semiconductors",
+      "canonical": "control-tower",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai-electronics-component-price-variance-audit",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-semiconductor-foundry-yield-settlement-recovery",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-semiconductor-mask-nre-charge-audit",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/frontend/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "/",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "login",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISemiconductorFabYieldOptimizer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "hardware-supply-chain",
+      "key": "login",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "hardware-supply-chain",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "hardware-supply-chain",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "hardware-supply-chain",
+      "key": "search",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "hardware-supply-chain",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/hardware-supply-chain",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "inference-chips-for-agent-workflows",
+      "key": "login",
+      "source": "/Volumes/external/projects/inference-chips-for-agent-workflows",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "inference-chips-for-agent-workflows",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "inference-chips-for-agent-workflows",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "supply-chain-2-semiconductors",
+      "key": "login",
+      "source": "/Volumes/external/projects/supply-chain-2-semiconductors",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "supply-chain-2-semiconductors",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "supply-chain-2-semiconductors",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "feature": "component-master-registry",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "approved-supplier-mapping",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "quote-agreement-library",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "purchase-order-ingestion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "receipt-invoice-matching",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "contract-price-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "commodity-adder-audit",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "broker-premium-review",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "ncnr-term-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "moq-price-tier",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "currency-conversion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "variance-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "supplier-dispute-workflow",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "credit-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "part-supplier-analytics",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "foundry-agreement-library",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "product-node-and-mask-registry",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "wafer-start-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "wafer-acceptance-and-scrap",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "wafer-sort-ingestion",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "good-die-yield-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "yield-guarantee-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "known-good-die-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "engineering-lot-separation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "mask-and-nre-charge-audit",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "expedite-charge-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "foundry-invoice-recalculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "yield-loss-claim-generation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "foundry-response-workflow",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "credit-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "product-node-and-supplier-analytics",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "foundry-agreement-library",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "tape-out-program-registry",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "mask-set-inventory",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "layer-count-validation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "nre-milestone-tracking",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "engineering-lot-calculation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "respins-responsibility",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "waiver-credit-control",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "tooling-ownership-evidence",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "invoice-matching",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "duplicate-nre-detection",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "foundry-dispute-workflow",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "credit-reconciliation",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "feature": "program-node-analytics",
+      "reason": "Source calculation module missing; native records/drafts only."
+    },
+    {
+      "project": "librelane",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}

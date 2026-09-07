@@ -1,0 +1,6614 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/notifications",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Notifications"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-alertingnotifications-system",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Notifications"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Outcome Analytics"
+      },
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Outcome Analytics"
+      },
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Outcome Analytics"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      },
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      },
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      },
+      {
+        "module": "chip_design",
+        "path": "/admin/audit-logs",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Audit Logs"
+      },
+      {
+        "module": "hardware-supply-chain",
+        "path": "audit",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Audit"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/integrations",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Integrations"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "component-master-registry",
+    "title": "Component master registry",
+    "group": "Electronics component price variance audit",
+    "description": "Execute component master registry using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Component master registry Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "component-master-registry",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Component master registry"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/component-master-registry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "approved-supplier-mapping",
+    "title": "Approved supplier mapping",
+    "group": "Electronics component price variance audit",
+    "description": "Execute approved supplier mapping using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Approved supplier mapping Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "approved-supplier-mapping",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Approved supplier mapping"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/approved-supplier-mapping",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quote-agreement-library",
+    "title": "Quote agreement library",
+    "group": "Electronics component price variance audit",
+    "description": "Execute quote agreement library using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Quote agreement library Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "quote-agreement-library",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Quote agreement library"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/quote-agreement-library",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "purchase-order-ingestion",
+    "title": "Purchase order ingestion",
+    "group": "Electronics component price variance audit",
+    "description": "Execute purchase order ingestion using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Purchase order ingestion Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "purchase-order-ingestion",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Purchase order ingestion"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/purchase-order-ingestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "receipt-invoice-matching",
+    "title": "Receipt invoice matching",
+    "group": "Electronics component price variance audit",
+    "description": "Execute receipt invoice matching using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Receipt invoice matching Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "receipt-invoice-matching",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Receipt invoice matching"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/receipt-invoice-matching",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contract-price-validation",
+    "title": "Contract price validation",
+    "group": "Electronics component price variance audit",
+    "description": "Execute contract price validation using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Contract price validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "contract-price-validation",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Contract price validation"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/contract-price-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commodity-adder-audit",
+    "title": "Commodity adder audit",
+    "group": "Electronics component price variance audit",
+    "description": "Execute commodity adder audit using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Commodity adder audit Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "commodity-adder-audit",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Commodity adder audit"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/commodity-adder-audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "broker-premium-review",
+    "title": "Broker premium review",
+    "group": "Electronics component price variance audit",
+    "description": "Execute broker premium review using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Broker premium review Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "broker-premium-review",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Broker premium review"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/broker-premium-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ncnr-term-validation",
+    "title": "NCNR term validation",
+    "group": "Electronics component price variance audit",
+    "description": "Execute ncnr term validation using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "NCNR term validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "ncnr-term-validation",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "NCNR term validation"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/ncnr-term-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "moq-price-tier",
+    "title": "MOQ price tier",
+    "group": "Electronics component price variance audit",
+    "description": "Execute moq price tier using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "MOQ price tier Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "moq-price-tier",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "MOQ price tier"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/moq-price-tier",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "currency-conversion",
+    "title": "Currency conversion",
+    "group": "Electronics component price variance audit",
+    "description": "Execute currency conversion using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Currency conversion Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "currency-conversion",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Currency conversion"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/currency-conversion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "variance-calculation",
+    "title": "Variance calculation",
+    "group": "Electronics component price variance audit",
+    "description": "Execute variance calculation using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Variance calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "variance-calculation",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Variance calculation"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/variance-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplier-dispute-workflow",
+    "title": "Supplier dispute workflow",
+    "group": "Electronics component price variance audit",
+    "description": "Execute supplier dispute workflow using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Supplier dispute workflow Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "supplier-dispute-workflow",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Supplier dispute workflow"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/supplier-dispute-workflow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "credit-reconciliation",
+    "title": "Credit reconciliation",
+    "group": "Electronics component price variance audit",
+    "description": "Execute credit reconciliation using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Credit reconciliation Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition",
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      },
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "credit-reconciliation",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Credit reconciliation"
+      },
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "credit-reconciliation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Credit reconciliation"
+      },
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "credit-reconciliation",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Credit reconciliation"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/credit-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "part-supplier-analytics",
+    "title": "Part supplier analytics",
+    "group": "Electronics component price variance audit",
+    "description": "Execute part supplier analytics using purchase agreements, approved vendor lists, component parts, quotes, purchase orders, receipts, invoices, commodity adjustments, NCNR terms, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Supplier / Component Part",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Part supplier analytics Reference",
+        "type": "text"
+      },
+      {
+        "name": "chargedAmount",
+        "label": "Charged or Paid Amount",
+        "type": "number"
+      },
+      {
+        "name": "supportedAmount",
+        "label": "Evidence-Supported Amount",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "Variance Driver",
+        "type": "select",
+        "options": [
+          "Contract price",
+          "Commodity adder",
+          "NCNR condition"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-electronics-component-price-variance-audit",
+        "path": "part-supplier-analytics",
+        "source": "/Volumes/external/projects/ai-electronics-component-price-variance-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Part supplier analytics"
+      }
+    ],
+    "owner": "ai-electronics-component-price-variance-audit",
+    "alternatives": [],
+    "path": "/features/part-supplier-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "foundry-agreement-library",
+    "title": "Foundry agreement library",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile foundry agreement library using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Foundry agreement library Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      },
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "foundry-agreement-library",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Foundry agreement library"
+      },
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "foundry-agreement-library",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Foundry agreement library"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/foundry-agreement-library",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "product-node-and-mask-registry",
+    "title": "Product node and mask registry",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile product node and mask registry using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Product node and mask registry Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "product-node-and-mask-registry",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Product node and mask registry"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/product-node-and-mask-registry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wafer-start-reconciliation",
+    "title": "Wafer-start reconciliation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile wafer-start reconciliation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Wafer-start reconciliation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "wafer-start-reconciliation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Wafer-start reconciliation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/wafer-start-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wafer-acceptance-and-scrap",
+    "title": "Wafer acceptance and scrap",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile wafer acceptance and scrap using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Wafer acceptance and scrap Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "wafer-acceptance-and-scrap",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Wafer acceptance and scrap"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/wafer-acceptance-and-scrap",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wafer-sort-ingestion",
+    "title": "Wafer-sort ingestion",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile wafer-sort ingestion using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Wafer-sort ingestion Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "wafer-sort-ingestion",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Wafer-sort ingestion"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/wafer-sort-ingestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "good-die-yield-calculation",
+    "title": "Good-die yield calculation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile good-die yield calculation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Good-die yield calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "good-die-yield-calculation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Good-die yield calculation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/good-die-yield-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "yield-guarantee-validation",
+    "title": "Yield guarantee validation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile yield guarantee validation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Yield guarantee validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "yield-guarantee-validation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Yield guarantee validation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/yield-guarantee-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "known-good-die-reconciliation",
+    "title": "Known-good-die reconciliation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile known-good-die reconciliation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Known-good-die reconciliation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "known-good-die-reconciliation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Known-good-die reconciliation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/known-good-die-reconciliation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "engineering-lot-separation",
+    "title": "Engineering lot separation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile engineering lot separation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Engineering lot separation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "engineering-lot-separation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Engineering lot separation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/engineering-lot-separation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mask-and-nre-charge-audit",
+    "title": "Mask and NRE charge audit",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile mask and nre charge audit using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Mask and NRE charge audit Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "mask-and-nre-charge-audit",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Mask and NRE charge audit"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/mask-and-nre-charge-audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expedite-charge-validation",
+    "title": "Expedite charge validation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile expedite charge validation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Expedite charge validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "expedite-charge-validation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Expedite charge validation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/expedite-charge-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "foundry-invoice-recalculation",
+    "title": "Foundry invoice recalculation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile foundry invoice recalculation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Foundry invoice recalculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "foundry-invoice-recalculation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Foundry invoice recalculation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/foundry-invoice-recalculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "yield-loss-claim-generation",
+    "title": "Yield-loss claim generation",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile yield-loss claim generation using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Yield-loss claim generation Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "yield-loss-claim-generation",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Yield-loss claim generation"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/yield-loss-claim-generation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "foundry-response-workflow",
+    "title": "Foundry response workflow",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile foundry response workflow using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Foundry response workflow Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "foundry-response-workflow",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Foundry response workflow"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/foundry-response-workflow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "product-node-and-supplier-analytics",
+    "title": "Product node and supplier analytics",
+    "group": "Semiconductor foundry yield settlement recovery",
+    "description": "Reconcile product node and supplier analytics using foundry agreements, process nodes, mask sets, wafer starts, lot genealogy, wafer-sort results, good die, yield guarantees, engineering lots, NRE, invoices, and credits.",
+    "fields": [
+      {
+        "name": "foundryProduct",
+        "label": "Foundry / Product",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Product node and supplier analytics Reference",
+        "type": "text"
+      },
+      {
+        "name": "creditedAmount",
+        "label": "Foundry Credits & Settlement",
+        "type": "number"
+      },
+      {
+        "name": "eligibleSettlement",
+        "label": "Eligible Yield Settlement",
+        "type": "number"
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-foundry-yield-settlement-recovery",
+        "path": "product-node-and-supplier-analytics",
+        "source": "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery/app.config.mjs",
+        "kind": "definition",
+        "label": "Product node and supplier analytics"
+      }
+    ],
+    "owner": "ai-semiconductor-foundry-yield-settlement-recovery",
+    "alternatives": [],
+    "path": "/features/product-node-and-supplier-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tape-out-program-registry",
+    "title": "Tape-out program registry",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute tape-out program registry using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Tape-out program registry Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "tape-out-program-registry",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Tape-out program registry"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/tape-out-program-registry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mask-set-inventory",
+    "title": "Mask set inventory",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute mask set inventory using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Mask set inventory Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "mask-set-inventory",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Mask set inventory"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/mask-set-inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "layer-count-validation",
+    "title": "Layer count validation",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute layer count validation using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Layer count validation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "layer-count-validation",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Layer count validation"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/layer-count-validation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nre-milestone-tracking",
+    "title": "NRE milestone tracking",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute nre milestone tracking using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "NRE milestone tracking Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "nre-milestone-tracking",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "NRE milestone tracking"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/nre-milestone-tracking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "engineering-lot-calculation",
+    "title": "Engineering lot calculation",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute engineering lot calculation using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Engineering lot calculation Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "engineering-lot-calculation",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Engineering lot calculation"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/engineering-lot-calculation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "respins-responsibility",
+    "title": "Respins responsibility",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute respins responsibility using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Respins responsibility Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "respins-responsibility",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Respins responsibility"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/respins-responsibility",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "design-change-attribution",
+    "title": "Design change attribution",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Prepare design change attribution requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Design change attribution Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "design-change-attribution",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Design change attribution"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/design-change-attribution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "waiver-credit-control",
+    "title": "Waiver credit control",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute waiver credit control using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Waiver credit control Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "waiver-credit-control",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Waiver credit control"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/waiver-credit-control",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tooling-ownership-evidence",
+    "title": "Tooling ownership evidence",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute tooling ownership evidence using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Tooling ownership evidence Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "tooling-ownership-evidence",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Tooling ownership evidence"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/tooling-ownership-evidence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "invoice-matching",
+    "title": "Invoice matching",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute invoice matching using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Invoice matching Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "invoice-matching",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Invoice matching"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/invoice-matching",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "duplicate-nre-detection",
+    "title": "Duplicate NRE detection",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute duplicate nre detection using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Duplicate NRE detection Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "duplicate-nre-detection",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Duplicate NRE detection"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/duplicate-nre-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "foundry-dispute-workflow",
+    "title": "Foundry dispute workflow",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute foundry dispute workflow using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Foundry dispute workflow Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "foundry-dispute-workflow",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Foundry dispute workflow"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/foundry-dispute-workflow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "program-node-analytics",
+    "title": "Program node analytics",
+    "group": "Semiconductor mask nre charge audit",
+    "description": "Execute program node analytics using foundry agreements, tape-outs, mask sets, engineering lots, NRE milestones, respins, ownership, waivers, invoices, and credits.",
+    "fields": [
+      {
+        "name": "caseEntity",
+        "label": "Foundry / Tape-Out Program",
+        "type": "text"
+      },
+      {
+        "name": "caseReference",
+        "label": "Program node analytics Reference",
+        "type": "text"
+      },
+      {
+        "name": "receivedAmount",
+        "label": "Received or Recognized Amount",
+        "type": "number"
+      },
+      {
+        "name": "entitledAmount",
+        "label": "Contract or Rule-Supported Entitlement",
+        "type": "number"
+      },
+      {
+        "name": "domainDriver",
+        "label": "NRE Event",
+        "type": "select",
+        "options": [
+          "Initial mask set",
+          "Respins",
+          "Engineering lot"
+        ]
+      },
+      {
+        "name": "evidenceState",
+        "label": "Evidence State",
+        "type": "select",
+        "options": [
+          "Complete",
+          "Incomplete",
+          "Exception"
+        ]
+      },
+      {
+        "name": "reviewDeadline",
+        "label": "Review Deadline",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-semiconductor-mask-nre-charge-audit",
+        "path": "program-node-analytics",
+        "source": "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit/app.config.mjs",
+        "kind": "definition",
+        "label": "Program node analytics"
+      }
+    ],
+    "owner": "ai-semiconductor-mask-nre-charge-audit",
+    "alternatives": [],
+    "path": "/features/program-node-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "yield-learning-center",
+    "title": "Yield Learning Center",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize yield learning center and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/yield-learning-center",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Yield Learning Center"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/yield-learning-center",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Yield Learning"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/yield-learning-center",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "war-room",
+    "title": "Excursion War Room",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize excursion war room and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/war-room",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Excursion War Room"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/war-room",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "production-readiness",
+    "title": "Production Readiness",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize production readiness and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/production-readiness",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Production Readiness"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/production-readiness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "observability",
+    "title": "Observability",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize observability and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/observability",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Observability"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/observability",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit-trail",
+    "title": "Audit Trail",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize audit trail and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/audit-trail",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Audit Trail"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/audit-trail",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "jobs",
+    "title": "AI Job Queue",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize ai job queue and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/ai-jobs",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "AI Job Queue"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/jobs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "model-registry",
+    "title": "Model Registry",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize model registry and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/model-registry",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Model Registry"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/model-registry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "approvals",
+    "title": "Approvals",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize approvals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/approvals",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Approvals"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/approvals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "role-permissions",
+    "title": "RBAC Rules",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize rbac rules and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/role-permissions",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "RBAC Rules"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/role-permissions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evidence-exports",
+    "title": "Evidence Exports",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize evidence exports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/evidence-exports",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Evidence Exports"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/evidence-exports",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Evidence & Export Center"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/evidence-exports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wafer-lots",
+    "title": "Wafer Lots",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize wafer lots and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/wafer-lots",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Wafer Lots"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/wafer-lots",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Wafer Lot Management"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/wafer-lots",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment-inventory",
+    "title": "Equipment Inventory",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize equipment inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/equipment-inventory",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Equipment Inventory"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment-inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "facilities",
+    "title": "Facilities",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize facilities and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/facilities",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Facilities"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/facilities",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reticle-pod-queue",
+    "title": "Reticle Pod Queue",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize reticle pod queue and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/reticle-pod-queue",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Reticle Pod Queue"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/reticle-pod-queue",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance-schedules",
+    "title": "Maintenance",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize maintenance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/maintenance-schedules",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Maintenance"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/maintenance-schedules",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Maintenance Scheduling"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/maintenance-schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shift-log-digest",
+    "title": "Shift Log Digest",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize shift log digest and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/shift-log-digest",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Shift Log Digest"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/shift-log-digest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "wafer-defects",
+    "title": "Wafer Defects",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize wafer defects and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/wafer-defects",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Wafer Defects"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/wafer-defects",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Wafer Defect Classification"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/wafer-defects",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "process-parameters",
+    "title": "Process Parameters",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize process parameters and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/process-parameters",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Process Parameters"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/process-parameters",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Process Parameter Optimization"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/process-parameters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "yield-predictions",
+    "title": "Yield Predictions",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize yield predictions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/yield-predictions",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Yield Predictions"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/yield-predictions",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Yield Prediction"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/yield-predictions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "root-cause-analysis",
+    "title": "Root Cause Analysis",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize root cause analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/root-cause-analysis",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Root Cause Analysis"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/root-cause-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment-matching",
+    "title": "Equipment Matching",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize equipment matching and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/equipment-matching",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Equipment Matching"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment-matching",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "defect-patterns",
+    "title": "Defect Patterns",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize defect patterns and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/defect-patterns",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Defect Patterns"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/defect-patterns",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Defect Pattern Recognition"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/defect-patterns",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "spc-alerts",
+    "title": "SPC Alerts",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize spc alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/spc-alerts",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "SPC Alerts"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/spc-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "process-recipes",
+    "title": "Process Recipes",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize process recipes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/process-recipes",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Process Recipes"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/process-recipes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quality-metrics",
+    "title": "Quality Metrics",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize quality metrics and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/quality-metrics",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Quality Metrics"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/quality-metrics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "process-optimization",
+    "title": "Process Optimization",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize process optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/process-optimization",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Process Optimization"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/process-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "defect-prediction",
+    "title": "Defect Prediction",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize defect prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/defect-prediction",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Defect Prediction"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/defect-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment-health-forecast",
+    "title": "Equipment Forecast",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize equipment forecast and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/equipment-health-forecast",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Equipment Forecast"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment-health-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-objective-optimize",
+    "title": "Multi-Objective Optimize",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize multi-objective optimize and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/multi-objective-optimize",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Multi-Objective Optimize"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/multi-objective-optimize",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "missing-features",
+    "title": "Missing Features Hub",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize missing features hub and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/missing-features",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Missing Features Hub"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/missing-features",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "yieldprediction-modeldriven",
+    "title": "Yield Model AI",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize yield model ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-yieldprediction-modeldriven",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Yield Model AI"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/yieldprediction-modeldriven",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rootcauseanalysis-ai-only-manual-records",
+    "title": "RCA Automation",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize rca automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-rootcauseanalysis-ai-only-manual-records",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "RCA Automation"
+      },
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/cf-root-cause-analysis-automation",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "RCA Automation"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/rootcauseanalysis-ai-only-manual-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "processoptimization-parameter-recs",
+    "title": "Parameter Recs",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize parameter recs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-processoptimization-parameter-recs",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Parameter Recs"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/processoptimization-parameter-recs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "defectprediction-ratetype-ml",
+    "title": "Defect Rate ML",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize defect rate ml and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-defectprediction-ratetype-ml",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Defect Rate ML"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/defectprediction-ratetype-ml",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipmenthealthforecast",
+    "title": "Equipment Health AI",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize equipment health ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-equipmenthealthforecast",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Equipment Health AI"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/equipmenthealthforecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reciperecommendation-ai",
+    "title": "Recipe AI",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize recipe ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-reciperecommendation-ai",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Recipe AI"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/reciperecommendation-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "realtime-spc-charting-records-only",
+    "title": "Realtime SPC",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize realtime spc and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-realtime-spc-charting-records-only",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Realtime SPC"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/realtime-spc-charting-records-only",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "integration-with-fab-equipment-secsgem",
+    "title": "SECS/GEM Integration",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Prepare secs/gem integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-integration-with-fab-equipment-secsgem",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "SECS/GEM Integration"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/integration-with-fab-equipment-secsgem",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment-calibration-tracking",
+    "title": "Calibration Tracking",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize calibration tracking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-equipment-calibration-tracking",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Calibration Tracking"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment-calibration-tracking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meserp-integration",
+    "title": "MES/ERP Integration",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Prepare mes/erp integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-no-meserp-integration",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "MES/ERP Integration"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/meserp-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-auditrbac-for-sensitive-recipe-data",
+    "title": "Audit/RBAC",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize audit/rbac and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/gap-limited-auditrbac-for-sensitive-recipe-data",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Audit/RBAC"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/limited-auditrbac-for-sensitive-recipe-data",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "yield-prediction-by-process-parameters",
+    "title": "Yield by Parameters",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize yield by parameters and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/cf-yield-prediction-by-process-parameters",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Yield by Parameters"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/yield-prediction-by-process-parameters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "process-recipe-optimization",
+    "title": "Recipe Optimization",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize recipe optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/cf-process-recipe-optimization",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Recipe Optimization"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/process-recipe-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment-predictive-maintenance",
+    "title": "Predictive Maintenance",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize predictive maintenance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/cf-equipment-predictive-maintenance",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Predictive Maintenance"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/equipment-predictive-maintenance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "defect-pattern-recognition",
+    "title": "Defect Recognition",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize defect recognition and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/cf-defect-pattern-recognition",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Defect Recognition"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/defect-pattern-recognition",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multiobjective-optimization",
+    "title": "Multi-Objective AI",
+    "group": "Semiconductor fab yield optimizer",
+    "description": "Organize multi-objective ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISemiconductorFabYieldOptimizer",
+        "path": "/cf-multiobjective-optimization",
+        "source": "/Volumes/external/projects/AISemiconductorFabYieldOptimizer/frontend/src/components/SidebarLayout.js",
+        "kind": "definition",
+        "label": "Multi-Objective AI"
+      }
+    ],
+    "owner": "AISemiconductorFabYieldOptimizer",
+    "alternatives": [],
+    "path": "/features/multiobjective-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin",
+    "title": "Dashboard",
+    "group": "Chip design",
+    "description": "Organize dashboard and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Dashboard"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-users",
+    "title": "Users",
+    "group": "Chip design",
+    "description": "Organize users and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin/users",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Users"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin-users",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-sessions",
+    "title": "Sessions",
+    "group": "Chip design",
+    "description": "Organize sessions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin/sessions",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Sessions"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin-sessions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-password-resets",
+    "title": "Password Resets",
+    "group": "Chip design",
+    "description": "Organize password resets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin/password-resets",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Password Resets"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin-password-resets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-email-verifications",
+    "title": "Email Verifications",
+    "group": "Chip design",
+    "description": "Organize email verifications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin/email-verifications",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Email Verifications"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin-email-verifications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-error-logs",
+    "title": "Error Logs",
+    "group": "Chip design",
+    "description": "Organize error logs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin/error-logs",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Error Logs"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin-error-logs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-roles",
+    "title": "Roles & Permissions",
+    "group": "Chip design",
+    "description": "Organize roles & permissions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin/roles",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Roles & Permissions"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin-roles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin-security",
+    "title": "Security",
+    "group": "Chip design",
+    "description": "Organize security and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "/admin/security",
+        "source": "/Volumes/external/projects/chip_design/app/admin/layout.tsx",
+        "kind": "definition",
+        "label": "Security"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/admin-security",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tmp-out-def",
+    "title": "Out.def",
+    "group": "Chip design",
+    "description": "Organize out.def and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "tmp/out.def",
+        "source": "/Volumes/external/projects/chip_design",
+        "kind": "route",
+        "label": "Out.def"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/tmp-out-def",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tmp-out-gds",
+    "title": "Out.gds",
+    "group": "Chip design",
+    "description": "Organize out.gds and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "chip_design",
+        "path": "tmp/out.gds",
+        "source": "/Volumes/external/projects/chip_design",
+        "kind": "route",
+        "label": "Out.gds"
+      }
+    ],
+    "owner": "chip_design",
+    "alternatives": [],
+    "path": "/features/tmp-out-gds",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lead-time",
+    "title": "Lead Time Prediction",
+    "group": "Hardware supply chain",
+    "description": "Organize lead time prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "lead-time",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Lead Time Prediction"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/lead-time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplier",
+    "title": "Supplier Recommendation",
+    "group": "Hardware supply chain",
+    "description": "Organize supplier recommendation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "supplier",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Supplier Recommendation"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/supplier",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bottleneck",
+    "title": "Bottleneck Analysis",
+    "group": "Hardware supply chain",
+    "description": "Organize bottleneck analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "bottleneck",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Bottleneck Analysis"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/bottleneck",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cost",
+    "title": "Cost Optimization",
+    "group": "Hardware supply chain",
+    "description": "Organize cost optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "cost",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Cost Optimization"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/cost",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplier-risk",
+    "title": "Supplier Risk Score",
+    "group": "Hardware supply chain",
+    "description": "Organize supplier risk score and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "supplier-risk",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Supplier Risk Score"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/supplier-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bom-optimizer",
+    "title": "BOM Cost Optimizer",
+    "group": "Hardware supply chain",
+    "description": "Organize bom cost optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "bom-optimizer",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "BOM Cost Optimizer"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/bom-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "defect-predictor",
+    "title": "Defect Predictor",
+    "group": "Hardware supply chain",
+    "description": "Organize defect predictor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "defect-predictor",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Defect Predictor"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/defect-predictor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "demand-forecast",
+    "title": "Demand Forecast",
+    "group": "Hardware supply chain",
+    "description": "Organize demand forecast and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "demand-forecast",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Demand Forecast"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/demand-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "geopolitical",
+    "title": "Geopolitical Risk",
+    "group": "Hardware supply chain",
+    "description": "Organize geopolitical risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "geopolitical",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/AICenterPage.tsx",
+        "kind": "definition",
+        "label": "Geopolitical Risk"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/geopolitical",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "parts",
+    "title": "Parts",
+    "group": "Hardware supply chain",
+    "description": "Full parts catalog with stock and cost.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "parts",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+        "kind": "definition",
+        "label": "Parts"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/parts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "suppliers",
+    "title": "Suppliers",
+    "group": "Hardware supply chain",
+    "description": "Supplier directory with reliability and certifications.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "suppliers",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+        "kind": "definition",
+        "label": "Suppliers"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/suppliers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "orders",
+    "title": "Orders",
+    "group": "Hardware supply chain",
+    "description": "All purchase orders with part and supplier names joined.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "orders",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+        "kind": "definition",
+        "label": "Orders"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/orders",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "iterations",
+    "title": "Design Iterations",
+    "group": "Hardware supply chain",
+    "description": "Engineering iteration history per part.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "iterations",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+        "kind": "definition",
+        "label": "Design Iterations"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/iterations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quality",
+    "title": "Quality Checks",
+    "group": "Hardware supply chain",
+    "description": "Incoming inspection records and defect rates.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "quality",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+        "kind": "definition",
+        "label": "Quality Checks"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/quality",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "manufacturers",
+    "title": "Manufacturers",
+    "group": "Hardware supply chain",
+    "description": "Manufacturing partners and capacities.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "manufacturers",
+        "source": "/Volumes/external/projects/hardware-supply-chain/frontend/src/pages/ExportPage.tsx",
+        "kind": "definition",
+        "label": "Manufacturers"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/manufacturers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "export",
+    "title": "Export",
+    "group": "Hardware supply chain",
+    "description": "Organize export and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "export",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Export"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/export",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bom",
+    "title": "Bom",
+    "group": "Hardware supply chain",
+    "description": "Organize bom and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "bom",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Bom"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/bom",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "components",
+    "title": "Components",
+    "group": "Hardware supply chain",
+    "description": "Organize components and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "components",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Components"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/components",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "landed-cost",
+    "title": "Landed cost",
+    "group": "Hardware supply chain",
+    "description": "Organize landed cost and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "landed-cost",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Landed cost"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/landed-cost",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cm-lead-times",
+    "title": "Cm lead times",
+    "group": "Hardware supply chain",
+    "description": "Organize cm lead times and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "cm-lead-times",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Cm lead times"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/cm-lead-times",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dfm",
+    "title": "Dfm",
+    "group": "Hardware supply chain",
+    "description": "Organize dfm and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "dfm",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Dfm"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/dfm",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ecn",
+    "title": "Ecn",
+    "group": "Hardware supply chain",
+    "description": "Organize ecn and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "ecn",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Ecn"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/ecn",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "aql",
+    "title": "Aql",
+    "group": "Hardware supply chain",
+    "description": "Organize aql and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "aql",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Aql"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/aql",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "iteration-speed",
+    "title": "Iteration speed",
+    "group": "Hardware supply chain",
+    "description": "Organize iteration speed and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "iteration-speed",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Iteration speed"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/iteration-speed",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "golden-sample-control",
+    "title": "Golden sample control",
+    "group": "Hardware supply chain",
+    "description": "Organize golden sample control and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "hardware-supply-chain",
+        "path": "golden-sample-control",
+        "source": "/Volumes/external/projects/hardware-supply-chain",
+        "kind": "route",
+        "label": "Golden sample control"
+      }
+    ],
+    "owner": "hardware-supply-chain",
+    "alternatives": [],
+    "path": "/features/golden-sample-control",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deployments",
+    "title": "Deployments",
+    "group": "Inference chips for agent workflows",
+    "description": "Organize deployments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "inference-chips-for-agent-workflows",
+        "path": "deployments",
+        "source": "/Volumes/external/projects/inference-chips-for-agent-workflows",
+        "kind": "route",
+        "label": "Deployments"
+      }
+    ],
+    "owner": "inference-chips-for-agent-workflows",
+    "alternatives": [],
+    "path": "/features/deployments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "librelane",
+    "title": "Librelane work",
+    "group": "Librelane",
+    "description": "Organize librelane work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "librelane",
+        "path": "librelane",
+        "source": "/Volumes/external/projects/librelane",
+        "kind": "source-workflow",
+        "label": "Librelane work"
+      }
+    ],
+    "owner": "librelane",
+    "alternatives": [],
+    "path": "/features/librelane",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "control-tower",
+    "title": "Control tower",
+    "group": "Supply chain 2 semiconductors",
+    "description": "Organize control tower and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "supply-chain-2-semiconductors",
+        "path": "control-tower",
+        "source": "/Volumes/external/projects/supply-chain-2-semiconductors",
+        "kind": "route",
+        "label": "Control tower"
+      }
+    ],
+    "owner": "supply-chain-2-semiconductors",
+    "alternatives": [],
+    "path": "/features/control-tower",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

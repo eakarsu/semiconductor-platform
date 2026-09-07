@@ -1,0 +1,9 @@
+{
+  "app": "semiconductor-platform",
+  "features": 142,
+  "sourceApps": 9,
+  "calculatorEngines": 0,
+  "registryHash": "813db6b416d47e9f0b57f1ec3e7277405ca39bf5fb6732cc1defa8c8e0b26b6e",
+  "builtAt": "2026-09-07T22:05:40.295Z",
+  "status": "built"
+}

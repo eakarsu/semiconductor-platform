@@ -1,0 +1,9 @@
+ai-electronics-component-price-variance-audit
+ai-semiconductor-foundry-yield-settlement-recovery
+ai-semiconductor-mask-nre-charge-audit
+AISemiconductorFabYieldOptimizer
+chip_design
+hardware-supply-chain
+inference-chips-for-agent-workflows
+librelane
+supply-chain-2-semiconductors

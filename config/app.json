@@ -1,0 +1,33 @@
+{
+  "id": "semiconductor-platform",
+  "title": "Semiconductors & hardware development",
+  "buyer": "Chip, hardware and electronics teams",
+  "sourceCount": 9,
+  "sources": [
+    "ai-electronics-component-price-variance-audit",
+    "ai-semiconductor-foundry-yield-settlement-recovery",
+    "ai-semiconductor-mask-nre-charge-audit",
+    "AISemiconductorFabYieldOptimizer",
+    "chip_design",
+    "hardware-supply-chain",
+    "inference-chips-for-agent-workflows",
+    "librelane",
+    "supply-chain-2-semiconductors"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46022,
+  "productName": "Semiconductors Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-electronics-component-price-variance-audit",
+    "/Volumes/external/projects/ai-semiconductor-foundry-yield-settlement-recovery",
+    "/Volumes/external/projects/ai-semiconductor-mask-nre-charge-audit",
+    "/Volumes/external/projects/AISemiconductorFabYieldOptimizer",
+    "/Volumes/external/projects/chip_design",
+    "/Volumes/external/projects/hardware-supply-chain",
+    "/Volumes/external/projects/inference-chips-for-agent-workflows",
+    "/Volumes/external/projects/librelane",
+    "/Volumes/external/projects/supply-chain-2-semiconductors"
+  ]
+}

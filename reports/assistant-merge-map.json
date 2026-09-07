@@ -1,0 +1,488 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 3 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "component-master-registry",
+      "approved-supplier-mapping",
+      "quote-agreement-library",
+      "purchase-order-ingestion",
+      "broker-premium-review",
+      "variance-calculation",
+      "supplier-dispute-workflow",
+      "part-supplier-analytics",
+      "foundry-agreement-library",
+      "product-node-and-mask-registry",
+      "wafer-acceptance-and-scrap",
+      "wafer-sort-ingestion",
+      "good-die-yield-calculation",
+      "engineering-lot-separation",
+      "yield-loss-claim-generation",
+      "foundry-response-workflow",
+      "product-node-and-supplier-analytics",
+      "tape-out-program-registry",
+      "mask-set-inventory",
+      "nre-milestone-tracking",
+      "engineering-lot-calculation",
+      "respins-responsibility",
+      "foundry-dispute-workflow",
+      "program-node-analytics",
+      "jobs",
+      "wafer-defects",
+      "process-parameters",
+      "defect-patterns",
+      "yieldprediction-modeldriven",
+      "equipmenthealthforecast",
+      "reciperecommendation-ai",
+      "multiobjective-optimization",
+      "librelane"
+    ],
+    "ai": true,
+    "representativeId": "component-master-registry",
+    "description": "One assistant for 33 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "component-master-registry",
+        "title": "Component master registry",
+        "originalPath": "/features/component-master-registry"
+      },
+      {
+        "id": "approved-supplier-mapping",
+        "title": "Approved supplier mapping",
+        "originalPath": "/features/approved-supplier-mapping"
+      },
+      {
+        "id": "quote-agreement-library",
+        "title": "Quote agreement library",
+        "originalPath": "/features/quote-agreement-library"
+      },
+      {
+        "id": "purchase-order-ingestion",
+        "title": "Purchase order ingestion",
+        "originalPath": "/features/purchase-order-ingestion"
+      },
+      {
+        "id": "broker-premium-review",
+        "title": "Broker premium review",
+        "originalPath": "/features/broker-premium-review"
+      },
+      {
+        "id": "variance-calculation",
+        "title": "Variance calculation",
+        "originalPath": "/features/variance-calculation"
+      },
+      {
+        "id": "supplier-dispute-workflow",
+        "title": "Supplier dispute workflow",
+        "originalPath": "/features/supplier-dispute-workflow"
+      },
+      {
+        "id": "part-supplier-analytics",
+        "title": "Part supplier analytics",
+        "originalPath": "/features/part-supplier-analytics"
+      },
+      {
+        "id": "foundry-agreement-library",
+        "title": "Foundry agreement library",
+        "originalPath": "/features/foundry-agreement-library"
+      },
+      {
+        "id": "product-node-and-mask-registry",
+        "title": "Product node and mask registry",
+        "originalPath": "/features/product-node-and-mask-registry"
+      },
+      {
+        "id": "wafer-acceptance-and-scrap",
+        "title": "Wafer acceptance and scrap",
+        "originalPath": "/features/wafer-acceptance-and-scrap"
+      },
+      {
+        "id": "wafer-sort-ingestion",
+        "title": "Wafer-sort ingestion",
+        "originalPath": "/features/wafer-sort-ingestion"
+      },
+      {
+        "id": "good-die-yield-calculation",
+        "title": "Good-die yield calculation",
+        "originalPath": "/features/good-die-yield-calculation"
+      },
+      {
+        "id": "engineering-lot-separation",
+        "title": "Engineering lot separation",
+        "originalPath": "/features/engineering-lot-separation"
+      },
+      {
+        "id": "yield-loss-claim-generation",
+        "title": "Yield-loss claim generation",
+        "originalPath": "/features/yield-loss-claim-generation"
+      },
+      {
+        "id": "foundry-response-workflow",
+        "title": "Foundry response workflow",
+        "originalPath": "/features/foundry-response-workflow"
+      },
+      {
+        "id": "product-node-and-supplier-analytics",
+        "title": "Product node and supplier analytics",
+        "originalPath": "/features/product-node-and-supplier-analytics"
+      },
+      {
+        "id": "tape-out-program-registry",
+        "title": "Tape-out program registry",
+        "originalPath": "/features/tape-out-program-registry"
+      },
+      {
+        "id": "mask-set-inventory",
+        "title": "Mask set inventory",
+        "originalPath": "/features/mask-set-inventory"
+      },
+      {
+        "id": "nre-milestone-tracking",
+        "title": "NRE milestone tracking",
+        "originalPath": "/features/nre-milestone-tracking"
+      },
+      {
+        "id": "engineering-lot-calculation",
+        "title": "Engineering lot calculation",
+        "originalPath": "/features/engineering-lot-calculation"
+      },
+      {
+        "id": "respins-responsibility",
+        "title": "Respins responsibility",
+        "originalPath": "/features/respins-responsibility"
+      },
+      {
+        "id": "foundry-dispute-workflow",
+        "title": "Foundry dispute workflow",
+        "originalPath": "/features/foundry-dispute-workflow"
+      },
+      {
+        "id": "program-node-analytics",
+        "title": "Program node analytics",
+        "originalPath": "/features/program-node-analytics"
+      },
+      {
+        "id": "jobs",
+        "title": "AI Job Queue",
+        "originalPath": "/features/jobs"
+      },
+      {
+        "id": "wafer-defects",
+        "title": "Wafer Defects",
+        "originalPath": "/features/wafer-defects"
+      },
+      {
+        "id": "process-parameters",
+        "title": "Process Parameters",
+        "originalPath": "/features/process-parameters"
+      },
+      {
+        "id": "defect-patterns",
+        "title": "Defect Patterns",
+        "originalPath": "/features/defect-patterns"
+      },
+      {
+        "id": "yieldprediction-modeldriven",
+        "title": "Yield Model AI",
+        "originalPath": "/features/yieldprediction-modeldriven"
+      },
+      {
+        "id": "equipmenthealthforecast",
+        "title": "Equipment Health AI",
+        "originalPath": "/features/equipmenthealthforecast"
+      },
+      {
+        "id": "reciperecommendation-ai",
+        "title": "Recipe AI",
+        "originalPath": "/features/reciperecommendation-ai"
+      },
+      {
+        "id": "multiobjective-optimization",
+        "title": "Multi-Objective AI",
+        "originalPath": "/features/multiobjective-optimization"
+      },
+      {
+        "id": "librelane",
+        "title": "Librelane work",
+        "originalPath": "/features/librelane"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "receipt-invoice-matching",
+      "contract-price-validation",
+      "moq-price-tier",
+      "credit-reconciliation",
+      "wafer-start-reconciliation",
+      "known-good-die-reconciliation",
+      "foundry-invoice-recalculation",
+      "waiver-credit-control",
+      "invoice-matching",
+      "cost",
+      "bom-optimizer"
+    ],
+    "ai": true,
+    "representativeId": "receipt-invoice-matching",
+    "description": "One assistant for 11 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "receipt-invoice-matching",
+        "title": "Receipt invoice matching",
+        "originalPath": "/features/receipt-invoice-matching"
+      },
+      {
+        "id": "contract-price-validation",
+        "title": "Contract price validation",
+        "originalPath": "/features/contract-price-validation"
+      },
+      {
+        "id": "moq-price-tier",
+        "title": "MOQ price tier",
+        "originalPath": "/features/moq-price-tier"
+      },
+      {
+        "id": "credit-reconciliation",
+        "title": "Credit reconciliation",
+        "originalPath": "/features/credit-reconciliation"
+      },
+      {
+        "id": "wafer-start-reconciliation",
+        "title": "Wafer-start reconciliation",
+        "originalPath": "/features/wafer-start-reconciliation"
+      },
+      {
+        "id": "known-good-die-reconciliation",
+        "title": "Known-good-die reconciliation",
+        "originalPath": "/features/known-good-die-reconciliation"
+      },
+      {
+        "id": "foundry-invoice-recalculation",
+        "title": "Foundry invoice recalculation",
+        "originalPath": "/features/foundry-invoice-recalculation"
+      },
+      {
+        "id": "waiver-credit-control",
+        "title": "Waiver credit control",
+        "originalPath": "/features/waiver-credit-control"
+      },
+      {
+        "id": "invoice-matching",
+        "title": "Invoice matching",
+        "originalPath": "/features/invoice-matching"
+      },
+      {
+        "id": "cost",
+        "title": "Cost Optimization",
+        "originalPath": "/features/cost"
+      },
+      {
+        "id": "bom-optimizer",
+        "title": "BOM Cost Optimizer",
+        "originalPath": "/features/bom-optimizer"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "commodity-adder-audit",
+      "ncnr-term-validation",
+      "yield-guarantee-validation",
+      "mask-and-nre-charge-audit",
+      "expedite-charge-validation",
+      "layer-count-validation",
+      "tooling-ownership-evidence",
+      "supplier-risk",
+      "geopolitical"
+    ],
+    "ai": true,
+    "representativeId": "commodity-adder-audit",
+    "description": "One assistant for 9 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "commodity-adder-audit",
+        "title": "Commodity adder audit",
+        "originalPath": "/features/commodity-adder-audit"
+      },
+      {
+        "id": "ncnr-term-validation",
+        "title": "NCNR term validation",
+        "originalPath": "/features/ncnr-term-validation"
+      },
+      {
+        "id": "yield-guarantee-validation",
+        "title": "Yield guarantee validation",
+        "originalPath": "/features/yield-guarantee-validation"
+      },
+      {
+        "id": "mask-and-nre-charge-audit",
+        "title": "Mask and NRE charge audit",
+        "originalPath": "/features/mask-and-nre-charge-audit"
+      },
+      {
+        "id": "expedite-charge-validation",
+        "title": "Expedite charge validation",
+        "originalPath": "/features/expedite-charge-validation"
+      },
+      {
+        "id": "layer-count-validation",
+        "title": "Layer count validation",
+        "originalPath": "/features/layer-count-validation"
+      },
+      {
+        "id": "tooling-ownership-evidence",
+        "title": "Tooling ownership evidence",
+        "originalPath": "/features/tooling-ownership-evidence"
+      },
+      {
+        "id": "supplier-risk",
+        "title": "Supplier Risk Score",
+        "originalPath": "/features/supplier-risk"
+      },
+      {
+        "id": "geopolitical",
+        "title": "Geopolitical Risk",
+        "originalPath": "/features/geopolitical"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "currency-conversion",
+      "lead-time"
+    ],
+    "ai": true,
+    "representativeId": "currency-conversion",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "currency-conversion",
+        "title": "Currency conversion",
+        "originalPath": "/features/currency-conversion"
+      },
+      {
+        "id": "lead-time",
+        "title": "Lead Time Prediction",
+        "originalPath": "/features/lead-time"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "duplicate-nre-detection",
+      "yield-predictions",
+      "root-cause-analysis",
+      "defect-prediction",
+      "equipment-health-forecast",
+      "equipment-predictive-maintenance",
+      "supplier",
+      "bottleneck",
+      "defect-predictor",
+      "demand-forecast"
+    ],
+    "ai": true,
+    "representativeId": "duplicate-nre-detection",
+    "description": "One assistant for 10 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "duplicate-nre-detection",
+        "title": "Duplicate NRE detection",
+        "originalPath": "/features/duplicate-nre-detection"
+      },
+      {
+        "id": "yield-predictions",
+        "title": "Yield Predictions",
+        "originalPath": "/features/yield-predictions"
+      },
+      {
+        "id": "root-cause-analysis",
+        "title": "Root Cause Analysis",
+        "originalPath": "/features/root-cause-analysis"
+      },
+      {
+        "id": "defect-prediction",
+        "title": "Defect Prediction",
+        "originalPath": "/features/defect-prediction"
+      },
+      {
+        "id": "equipment-health-forecast",
+        "title": "Equipment Forecast",
+        "originalPath": "/features/equipment-health-forecast"
+      },
+      {
+        "id": "equipment-predictive-maintenance",
+        "title": "Predictive Maintenance",
+        "originalPath": "/features/equipment-predictive-maintenance"
+      },
+      {
+        "id": "supplier",
+        "title": "Supplier Recommendation",
+        "originalPath": "/features/supplier"
+      },
+      {
+        "id": "bottleneck",
+        "title": "Bottleneck Analysis",
+        "originalPath": "/features/bottleneck"
+      },
+      {
+        "id": "defect-predictor",
+        "title": "Defect Predictor",
+        "originalPath": "/features/defect-predictor"
+      },
+      {
+        "id": "demand-forecast",
+        "title": "Demand Forecast",
+        "originalPath": "/features/demand-forecast"
+      }
+    ]
+  }
+]
